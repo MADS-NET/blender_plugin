@@ -1,0 +1,6 @@
+/build*/
+/NodeOSC
+imgui.ini
+*.bak
+blender/*.blend*
+.DS_Store
