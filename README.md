@@ -11,6 +11,8 @@ they map directly onto vector properties such as `location`.
 
 Look at the documentation for [Blender Python API](https://docs.blender.org/api/current/bpy.types.Object.html#bpy.types.Object) for linking messages field to object properties.
 
+Before you use it: the NodeOSC add-on must be installed and enabled in Blender, or nothing will listen when the file opens. To install the NodeOSC/ folder, zip it and use Preferences → Add-ons → Install from Disk, or symlink it into your add-ons folder. Then select an object, press `N` to show the side panel, and enable NodeOSC in the Tools tab. The add-on will start listening on port 9001 when a file is opened. Occasionally, the NodeOSC http server will loose connection: when it happens, restart the NodeOSC server from the Blender side panel.
+
 *Required MADS version: 3.0.0.*
 
 
